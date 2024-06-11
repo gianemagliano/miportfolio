@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    margin: 20px 150px;
+    padding: 0px;
+    
+}
+.header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 55px;
+    
+    /* background-color:grey; */
+
+}
+
+.logo-header{
+    /* font-family: "Outfit", sans-serif; */
+    font-optical-sizing: auto;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fc6c04;
+    margin-top: 15px;
+     /* text-align: left; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s ;
+    margin-left: 25px;
+}
+
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.box{
+    margin: 45px 0px; 
+    /* font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto; */
+}
+
+.hero{
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    padding-top: 100px ;
+    /* background-color: grey; */
+
+}
+
+.texto-inicio{
+    /* font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto; */
+    padding: 20px 0px;
+    /* text-align: left; */
+    max-width: 50%;
+    
+}
+
+.hola{
+    /* font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto; */
+    font-size: 20px;
+    font-weight: 600;
+    /* padding: 10px 0px; */
+    margin-bottom:10px ;
+}
+
+.nombre{
+    /* font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto; */
+    font-size: 25px;
+    /* padding: 15px 0px; */
+    color: #ff7411;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+h1{
+    /* font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto; */
+    font-weight: 700;
+    font-size: 80px;
+    /* padding: 0px 5px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* margin: 10px 0px; */
+    /* text-align: left; */
+    
+}
+
+.sangria{
+    text-indent: 132px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    
+
+}
+.descripcion{
+    text-align: justify;
+    font-size: 18px;
+    /* width: 500px; */
+    
+}
+
+.boton-hero{
+    background-color: #ffffff;
+    color: #fc6c04;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #fc6c04;
+    transition: background-color 0.5s, color 0.5s;
+    margin-top: 25px;
+
+}
+
+.boton-hero:hover{
+    background-color: #fc6c04;
+    color: white;
+    cursor: pointer;
+    padding: 10px 22px;
+    
+}
+
+.img-propia{
+    width: 350px;
+
+}
+
+.iconos-redes{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.iconos-redes a{
+    font-size: 23px;
+    color: black;
+    padding: 5px 8px;
+}
+
