@@ -4,89 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio Web</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <header>
-        <h2>GianellaMagliano</h2>
-        <nav>
-            <a href=#inicio>Inicio</a>
-            <a href=#acerca>Acerca de mi</a>
-            <a href=#servicios>Servicios</a>
-            <a href=#habilidades>Habilidades</a>
-            <a href=#proyectos>Proyectos</a>
-            <a href=#contacto>Contacto</a>
-        </nav>
+    <header class="header">
+        <div class="contenedor-header">
+            <h2 class="logo-header">GianellaMagliano</h2>
+            <nav>
+                <a href=#inicio>Inicio</a>
+                <a href=#acerca>Acerca de mi</a>
+                <a href=#habilidades>Habilidades</a>
+                <a href=#servicios>Servicios</a>
+                <a href=#proyectos>Proyectos</a>
+                <a href=#contacto>Contacto</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="inicio" class="inicio">
-            <div class="contenido-incio">
-                <h4>Hola soy</h4>
-                <h3>Gianella Magliano</h3>
+    <main class="box">
+        <section id="inicio" class="hero">
+            <div class="texto-inicio">
+                <p class="hola">Hola soy</p>
+                <h3 class="nombre">Gianella Magliano</h3>
                 <h1>Desarrolladora</h1>
                 <h1 class="sangria">Fullstack Jr</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates error debitis fuga, explicabo quas inventore laudantium modi sed ipsa dolore. Nihil iure officia aliquid iusto saepe minus, sequi eos quasi.</p>
-                <a href=""><button>Contrátame</button></a>
+                <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates error debitis fuga, explicabo quas inventore laudantium modi sed ipsa dolore. Nihil iure officia aliquid iusto saepe minus, sequi eos quasi.</p>
+                <a href="#contacto"><button class="boton-hero">Contrátame</button></a>
             </div>
             <div class="imagen-incio">
-                <img src="" alt="">
-                <a href=""><i class="bi bi-facebook" ></i></a>
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href="https://www.instagram.com/giane_magliano/"><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <img class= "img-propia" src="img/circle-phone.svg" alt="">
+                <div class="iconos-redes">
+                    <a href="https://www.facebook.com/profile.php?id=100007672818120"><i class="facebook bi bi-facebook" ></i></a>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/giane_magliano/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://x.com/home"><i class="bi bi-linkedin"></i></a>
+                </div>
             </div>
         </section>
 
         <section id="acerca" class="acerca">
-            <div class="imagen-acerca">
-                <img src="" alt="">
-            </div>
+            <img class="img-acerca" src="img/circle-phone.svg" alt="">
+            
             <div class="contenido-acerca">
                 <h2>Acerca de mi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, corporis atque praesentium nesciunt iste nisi amet tempora? Quidem doloribus accusantium mollitia illum ea, necessitatibus excepturi at ex eius nostrum ducimus.</p>
-                <h5></h5>
-                <h5></h5>
-                <h5></h5>
+                <p class="descripcion-acerca">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, corporis atque praesentium nesciunt iste nisi amet tempora? Quidem doloribus accusantium mollitia illum ea, necessitatibus excepturi at ex eius nostrum ducimus.</p>
+                <div class="contenedor-barras">
+                    <div class="skill">
+                        <label for="ux">UX</label>
+                        <div class="progress-bar">
+                            <progress id="ux" value="90" max="100"></progress>
+                            <span class="ball"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label for="web-design">Website Design</label>
+                        <div class="progress-bar">
+                            <progress id="web-design" value="80" max="100"></progress>
+                            <span class="ball"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label for="app-design">App Design</label>
+                        <div class="progress-bar">
+                            <progress id="app-design" value="70" max="100"></progress>
+                            <span class="ball"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label for="graphic-design">Graphic Design</label>
+                        <div class="progress-bar">
+                            <progress id="graphic-design" value="95" max="100"></progress>
+                            <span class="ball"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section  id="habilidades" class="habilidades">
+            <h2>Mis Habilidades</h2>
+            <section class="contenedor-habilidades">
+                <div class="habilidad">
+                    <img class="img-habilidad" src="img/icons8-html.svg" alt="">
+                    <h3>HTML</h3>
+                
+                </div>
+                <div class="habilidad">
+                    <img class="img-habilidad" src="img/icons8-css3.svg" alt="">
+                    <h3 >CSS</h3>
+           
+                    
+                </div>
+                <div class="habilidad">
+                    <img class="img-habilidad " src="img/icons8-javascript.svg" alt="">
+                    <h3 >JS</h3>
+                    
+
+                </div>
+                <div class="habilidad">
+                    <img class="img-habilidad" src="img/icons8-git.svg" alt="">
+                    <h3>Git</h3>
+                    
+
+                </div>
+
+                <div class="habilidad">
+                    <img class="img-habilidad" src="img/icons8-github.svg" alt="">
+                    <h3>GitHub</h3>
+
+
+                </div>
+
+            </section>
+            
         </section>
 
         <section id="servicios" class="servicios">
             <h2>Servicios</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum, quisquam porro sunt nisi, ipsam iusto perferendis sed, corrupti laudantium numquam ea officiis exercitationem! Rem, quo! Unde nemo facilis quos.</p>
+            <p class="descripcion-servicios">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum, quisquam porro sunt nisi, ipsam iusto perferendis sed, corrupti laudantium numquam ea officiis exercitationem! Rem, quo! Unde nemo facilis quos.</p>
             <section class="contenedor-servicios">
-                <div>
+                <div class="servicio">
                     <i class="bi bi-facebook"></i>
-                    <h2></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate fugit mollitia aperiam, debitis ut pariatur officia vitae quasi, modi provident facilis, perferendis culpa ducimus molestias vero? Impedit, nostrum consectetur.</p>
+                    <h2 class="nombre-servicio">titulo</h2>
+                    <p class="descripcion-servicio">Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate fugit mollitia aperiam, debitis ut pariatur officia vitae quasi, modi provident facilis, perferendis culpa ducimus molestias vero? Impedit, nostrum consectetur.</p>
                 </div>
-                <div>
+                <div class="servicio">
                     <i class="bi bi-facebook"></i>
-                    <h2></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate fugit mollitia aperiam, debitis ut pariatur officia vitae quasi, modi provident facilis, perferendis culpa ducimus molestias vero? Impedit, nostrum consectetur.</p>
+                    <h2 class="nombre-servicio">titulo</h2>
+                    <p class="descripcion-servicio">Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate fugit mollitia aperiam, debitis ut pariatur officia vitae quasi, modi provident facilis, perferendis culpa ducimus molestias vero? Impedit, nostrum consectetur.</p>
                 </div>
-                <div>
+                <div class="servicio">
                     <i class="bi bi-facebook"></i>
-                    <h2></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate fugit mollitia aperiam, debitis ut pariatur officia vitae quasi, modi provident facilis, perferendis culpa ducimus molestias vero? Impedit, nostrum consectetur.</p>
+                    <h2 class="nombre-servicio">titulo</h2>
+                    <p class="descripcion-servicio">Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate fugit mollitia aperiam, debitis ut pariatur officia vitae quasi, modi provident facilis, perferendis culpa ducimus molestias vero? Impedit, nostrum consectetur.</p>
                 </div>
             </section>
         </section>
         <section id="proyectos" class="proyectos">
-            <h2>Mis proyectos</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, neque ipsum. Neque saepe aut nihil natus vel qui quisquam minus, excepturi quod ullam inventore nobis cupiditate nisi laboriosam accusamus quam?</p>
+            <h2>Mis Proyectos</h2>
+            <p class="descripcion-proyectos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, neque ipsum. Neque saepe aut nihil natus vel qui quisquam minus, excepturi quod ullam inventore nobis cupiditate nisi laboriosam accusamus quam?</p>
             <section class="contenedor-botones">
-                <a href="#todos"><button>Todos</button></a>
-                <a href="#trabajospracticos"><button>Trabajos practicos</button></a>
+                <a href="#todos"><button class="boton-proyectos">Todos</button></a>
+                <a href="#trabajospracticos"><button class="boton-proyectos">Trabajos practicos</button></a>
             </section>
-            <section class="contenedor-servicios">
-                <div>
-                    <img src="" alt="">
+
+            <section class="contenedor-proyectos">
+                <div class="proyecto">
+                    <div class="contenedor-img">
+                        <img class="img-proyecto" src="img/WhatsApp Image 2024-06-11 at 19.16.05.jpeg" alt="">
+                    </div>
+                    
                     <h4>tipo proyecto</h4>
                     <h3>nombre proyecto</h3>
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="proyecto">
+                    <div class="contenedor-img">
+                        <img class="img-proyecto" src="img/WhatsApp Image 2024-06-11 at 19.16.05.jpeg" alt="">
+                    </div>
+                    
+                    <h4>tipo proyecto</h4>
+                    <h3>nombre proyecto</h3>
+                </div>
+
+                <div class="proyecto">
+                    <div class="contenedor-img">
+                        <img class="img-proyecto" src="img/WhatsApp Image 2024-06-11 at 19.16.05.jpeg" alt="">
+                    </div>
+                    
                     <h4>tipo proyecto</h4>
                     <h3>nombre proyecto</h3>
                 </div>
@@ -104,19 +191,6 @@
         </section>
     </main>
     <footer>
-        <h2>GianellaMagliano</h2>
-        <nav>
-            <a href=#inicio>Inicio</a>
-            <a href=#acerca>Acerca de mi</a>
-            <a href=#servicios>Servicios</a>
-            <a href=#habilidades>Habilidades</a>
-            <a href=#proyectos>Proyectos</a>
-            <a href=#contacto>Contacto</a>
-        </nav>
-        <a href=""><i class="bi bi-facebook" ></i></a>
-        <a href=""><i class="bi bi-twitter"></i></a>
-        <a href="https://www.instagram.com/giane_magliano/"><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
 
     </footer>
 </body>
