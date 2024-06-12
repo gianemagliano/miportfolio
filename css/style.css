@@ -9,11 +9,12 @@
 body {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    margin: 20px 150px;
+    /* margin: 20px 150px; */
     padding: 0px;
     
 }
 .header{
+    margin: 0px 150px;
     background-color: white;
     width: 100%;
     position: fixed;
@@ -60,7 +61,8 @@ nav a:hover{
 }
 
 .box{
-    margin: 45px 0px; 
+    margin: 20px 150px;
+    /* margin: 45px 0px;  */
     /* font-family: "Outfit", sans-serif;
     font-optical-sizing: auto; */
 }
@@ -340,3 +342,95 @@ progress[value]::-moz-progress-bar {
     font-size: 15px;
 }
 
+.proyectos{
+    scroll-margin-top: 95.25px;
+    text-align: center;
+    /* padding-top: 100px; */
+    margin-top: 100px;
+
+}
+
+.descripcion-proyectos{
+    margin: 0 auto;
+    max-width: 700px;
+    font-size: 17px;
+}
+
+
+.contenedor-botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.boton-proyectos{
+    background-color: #f6f6f6;
+    color: black;
+    font-size: 20px;
+    font-weight: 350;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s, color 0.5s;
+    margin: 10px;
+    
+
+}
+
+.boton-proyectos:hover{
+    background-color: #fc6c04;
+    color: white;
+    padding: 10px 22px;
+    font-size: 20px;
+    font-weight: 350;
+
+}
+
+.contenedor-proyectos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 11px;
+    max-width: 100%;
+    /* width: 100%; */
+    background-color: white;
+
+}
+
+.contenedor-img{
+    height: 320px;
+    width: 290px;
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffecdc;
+    border-radius: 10px;
+}
+
+
+
+.proyecto h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff8833;
+    padding-top: 25px;
+    text-align: left;
+
+}
+
+.proyecto h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-top: 8px;
+    text-align: left;
+
+}
+
+.img-proyecto{
+    width: 80%;
+    padding: 20px
+
+}
