@@ -9,7 +9,6 @@
 body {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    /* margin: 20px 150px; */
     padding: 0px;
     
 }
@@ -26,20 +25,17 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 55px;
-    
-    /* background-color:grey; */
 
 }
 
 .logo-header{
-    /* font-family: "Outfit", sans-serif; */
     font-optical-sizing: auto;
     font-size: 35px;
     font-weight: bold;
     color: #fc6c04;
     margin-top: 15px;
-     /* text-align: left; */
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -62,45 +58,39 @@ nav a:hover{
 
 .box{
     margin: 20px 150px;
-    /* margin: 45px 0px;  */
-    /* font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto; */
+
 }
 
 .hero{
-    /* border: solid 1px black; */
+ 
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 500px;
     padding-top: 100px ;
-    /* background-color: grey; */
+    flex-wrap: wrap;
+
 
 }
 
 .texto-inicio{
-    /* font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto; */
+ 
     padding: 20px 0px;
-    /* text-align: left; */
+
     max-width: 50%;
     
 }
 
 .hola{
-    /* font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto; */
+
     font-size: 20px;
     font-weight: 600;
-    /* padding: 10px 0px; */
     margin-bottom:10px ;
 }
 
 .nombre{
-    /* font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto; */
+
     font-size: 25px;
-    /* padding: 15px 0px; */
     color: #ff7411;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -108,15 +98,11 @@ nav a:hover{
 
 
 h1{
-    /* font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto; */
+
     font-weight: 700;
     font-size: 80px;
-    /* padding: 0px 5px; */
     margin-top: 0px;
     margin-bottom: 0px;
-    /* margin: 10px 0px; */
-    /* text-align: left; */
     
 }
 
@@ -130,7 +116,6 @@ h1{
 .descripcion{
     text-align: justify;
     font-size: 18px;
-    /* width: 500px; */
     
 }
 
@@ -175,9 +160,9 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: grey; */
     padding-top: 110px ;
-    /* margin-top: 100px; */
+    flex-wrap: wrap;
+
 
 }
 
@@ -256,7 +241,6 @@ progress[value]::-moz-progress-bar {
 }
 
 .habilidades{
-    /* margin-top: 100px; */
     text-align: center;
     padding-top: 110px ;
     height: 350px;
@@ -268,7 +252,6 @@ progress[value]::-moz-progress-bar {
     justify-content: space-evenly;
     align-items: center;
     padding-top: 80px;
-    /* padding: 11px; */
     width: 100%;
     background-color: white;
     flex-wrap: wrap;
@@ -278,7 +261,6 @@ progress[value]::-moz-progress-bar {
 .habilidad{
     height: 100px;
     width: 100px;
-    /* margin: 50px 50px; */
     padding: 15px 5px;
     text-align: center;
     background-color: #ffecdc;
@@ -296,10 +278,8 @@ progress[value]::-moz-progress-bar {
 }
 
 .servicios{
-    /* margin-top: 100px; */
     padding-top: 110px;
     text-align: center;
-    /* background-color: grey; */
 }
 
 .descripcion-servicios{
@@ -317,8 +297,9 @@ progress[value]::-moz-progress-bar {
     padding: 11px;
     margin: 0 auto;
     max-width: 100%;
-    /* width: 100%; */
     background-color: white;
+    flex-wrap: wrap;
+
 }
 
 .servicio{
@@ -333,6 +314,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .nombre-servicio{
+    padding-top: 10px;
     font-size: 25px;
     font-weight: 600;
 
@@ -345,7 +327,6 @@ progress[value]::-moz-progress-bar {
 .proyectos{
     scroll-margin-top: 95.25px;
     text-align: center;
-    /* padding-top: 100px; */
     margin-top: 110px;
 
 }
@@ -361,6 +342,8 @@ progress[value]::-moz-progress-bar {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    flex-wrap: wrap;
+
 
 }
 
@@ -394,19 +377,24 @@ progress[value]::-moz-progress-bar {
     align-items: center;
     padding: 11px;
     max-width: 100%;
-    /* width: 100%; */
     background-color: white;
+    flex-wrap: wrap;
+
 
 }
 
 .contenedor-img{
-    height: 320px;
+    display: flex;
+    align-items: center;
+    height: 250px;
     width: 290px;
     margin-top: 50px;
     padding: 15px;
     text-align: center;
     background-color: #ffecdc;
     border-radius: 10px;
+    flex-wrap: wrap;
+
 }
 
 
@@ -430,7 +418,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .img-proyecto{
-    width: 80%;
+    width: 90%;
     padding: 20px
 
 }
