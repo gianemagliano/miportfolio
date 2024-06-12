@@ -244,7 +244,7 @@ progress[value]::-moz-progress-bar {
 .habilidades{
     text-align: center;
     padding-top: 110px ;
-    height: 350px;
+    height: 400px;
 }
 
 .contenedor-habilidades{
@@ -278,7 +278,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .servicios{
-    padding-top:180px;
+    padding-top:110px;
     text-align: center;
 }
 
