@@ -1,0 +1,338 @@
+@media(max-width: 1920px){
+    .img-propia {
+        width: 430px;
+        height: 430px;
+    }
+
+    .img-propia-acerca{
+        width: 480px;
+        height: 480px;
+    }
+
+    .texto-inicio h1{
+        font-size: 80px;
+    }
+    .descripcion, .descripcion-acerca{
+        font-size: 25px;
+    }
+
+    .boton-hero{
+        padding: 15px 26px;
+
+    }
+    .iconos-redes a{
+        font-size: 30px;
+
+    }
+    .descripcion-servicios, .descripcion-proyectos, .descripcion-contacto{
+        font-size: 24px;
+
+    }
+    .servicio{
+        height: 320px;
+        width: 270px;
+    }
+   
+    .descripcion-servicio{
+        font-size: 22px;
+    }
+
+    label{
+        font-size: 22px;
+    }
+
+    .proyecto h4{
+        font-size: 22px
+
+    }
+    .proyecto h3{
+        font-size: 27px;
+
+    }
+}
+
+@media(max-width:1440px){
+    .img-propia{
+        width: 350px;
+        height: 350px;
+    }
+
+    .img-propia-acerca{
+        width: 400px;
+        height: 400px;
+    }
+
+    .texto-inicio h1{
+        font-size: 70px;
+    }
+    .descripcion, .descripcion-acerca{
+        font-size: 18px;
+    }
+
+    .boton-hero{
+        padding: 10px 22px;
+
+    }
+    .iconos-redes a{
+        font-size: 23px;
+
+    }
+    .descripcion-servicios, .descripcion-proyectos, .descripcion-contacto{
+        font-size: 22px;
+
+    }
+    .servicio{
+        height: 300px;
+        width: 250px;
+    }
+   
+    .descripcion-servicio{
+        font-size: 20px;
+    }
+
+    label{
+        font-size: 20px;
+    }
+
+    .proyecto h4{
+        font-size: 15px
+
+    }
+    .proyecto h3{
+        font-size: 20px;
+
+    }
+}
+    /* .texto-inicio h1{
+        font-size: 80px;
+    }
+} */
+
+@media(max-width:1280px) {
+
+    .acerca, .hero{
+        padding-top: 100px ;
+    }
+    .contenedor-proyectos{
+        flex-direction: column;
+    }
+    .texto-inicio h1{
+        font-size: 55px;
+    }
+
+    .img-propia{
+        width: 310px;
+        height: 310px;
+    }
+    .img-propia-acerca{
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .descripcion, .descripcion-acerca{
+        font-size: 18px;
+    }
+
+    .boton-hero{
+        padding: 15px 26px;
+
+    }
+    .iconos-redes a{
+        font-size: 30px;
+
+    }
+    .descripcion-servicios, .descripcion-proyectos, .descripcion-contacto{
+        font-size: 17px;
+
+    }
+    .servicio{
+        height: 300px;
+        width: 250px;
+    }
+   
+    .descripcion-servicio{
+        font-size: 17px;
+    }
+
+    label{
+        font-size: 20px;
+    }
+
+    .proyecto h4{
+        font-size: 15px
+
+    }
+    .proyecto h3{
+        font-size: 20px;
+
+    }
+    .boton-hero{
+        padding: 10px 22px;
+
+    }
+    h2{
+        font-size: 45px;
+    }
+}
+
+
+@media(max-width:1024px) {
+    .acerca, .servicios, .proyectos, .habilidades{
+        margin-top: 0px;
+    }
+    .contenedor-header{
+        padding-top: 15px;
+    }
+
+    .logo-header{
+        display: none;
+    }
+    .texto-inicio h1{
+        font-weight: 200px;
+        font-size: 50px;
+    }
+
+    .iconos-redes a{
+        font-size: 20px;
+
+    }
+    .boton-hero{
+        padding: 10px 22px;
+        margin-top: 10px;
+    }
+
+    .descripcion, .descripcion-acerca{
+        font-size: 16px;
+    }
+    .contenedor-servicios{
+        flex-direction: column;
+    }
+    .img-propia, .contenedor-img-propia{
+        display: none;
+    }
+    .contenido-acerca{
+        justify-content: center;
+    }
+
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .descripcion-acerca{
+        text-align: center;
+    }
+    .contenedor-img-propia-acerca, .img-propia-acerca{
+        display: none;
+    }
+    
+}
+
+@media(max-width:768px) {
+    .contenedor-header{
+        padding-top: 15px;
+    }
+
+    .logo-header{
+        display: none;
+    }
+    .texto-inicio h1{
+        font-weight: 200px;
+        font-size: 30px;
+    }
+
+    .iconos-redes a{
+        font-size: 12px;
+
+    }
+    .boton-hero{
+        padding: 8px 20px;
+        margin-top: 8px;
+    }
+
+    .descripcion, .descripcion-acerca{
+        font-size: 15px;
+    }
+    .contenedor-servicios{
+        flex-direction: column;
+    }
+    .img-propia{
+        width: 200px;
+        height: 200px;
+    }
+    .contenido-acerca{
+        justify-content: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .descripcion-acerca{
+        text-align: center;
+    }
+    .contenedor-img-propia-acerca, .img-propia-acerca{
+        display: none;
+    }
+    
+}
+
+@media(max-width:480px) {
+    
+    .contenedor-header{
+        padding-top: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-header{
+        display: none;
+    }
+
+    .navbar a{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        color: black;
+    }
+
+    .texto-inicio h1{
+        font-weight: 200px;
+        font-size: 30px;
+    }
+
+    .iconos-redes a{
+        font-size: 12px;
+
+    }
+    .boton-hero{
+        padding: 8px 20px;
+        margin-top: 8px;
+    }
+
+    .descripcion, .descripcion-acerca{
+        font-size: 15px;
+    }
+    .contenedor-servicios{
+        flex-direction: column;
+    }
+    .img-propia{
+        width: 200px;
+        height: 200px;
+    }
+    .contenido-acerca{
+        justify-content: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .descripcion-acerca{
+        text-align: center;
+    }
+    .contenedor-img-propia-acerca, .img-propia-acerca{
+        display: none;
+    }
+    
+}
