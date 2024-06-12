@@ -434,3 +434,52 @@ progress[value]::-moz-progress-bar {
     padding: 20px
 
 }
+
+.contacto{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.descripcion-contacto{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.boton-contacto{
+    background-color: #ffffff;
+    color: #fc6c04;
+    padding: 13px 23px;
+    font-size: 19px;
+    font-weight: 500 ;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #fc6c04;
+    transition: background-color 0.5s, color 0.5s;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.boton-contacto:hover{
+    background-color: #fc6c04;
+    font-size: 19px;
+    font-weight: 500 ;
+    color: white;
+    cursor: pointer;
+    padding: 13px 23px;
+
+}
+
+.input-email{
+    text-align: left;
+    padding: 13px;
+    padding-right: 200px;
+    font-size: 19px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.5) ;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color:#f6f6f6 ;
+    margin-right: 10px;
+
+}
